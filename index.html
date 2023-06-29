@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="favicon (1).png" >
+    <title>Sociala</title>
+  </head>
+  <body>
+    <div
+      class="flex h-screen absolute bg-white w-full lg:bg-gray-50 lg:gap-5 items-center"
+     >
+      <div class="left h-full lg:w-1/3 lg:flex hidden">
+        <figure class="">
+          <img src="login-bg.jpg" class="h-full" alt="" />
+        </figure>
+      </div>
+      <section class="lg:w-2/3 w-full lg: sm:w-4/5 md:w-3/4 mx-auto lg:px-20">
+        <div class="mb-5">
+          <span class="flex text-center text-blue-500 text-3xl font-bold gap-2"
+            ><img src="favicon (1).png" class="w-8 2xl:" alt=""> Sociala.</span
+          >
+        </div>
+        <div
+          class="right flex flex-col mx-auto lg:p-10 p-5 bg-white rounded lg:shadow"
+        >
+          <h1 class="text-xl mb-5 uppercase font-bold gap-10">
+            LOGIN TO YOUR ACCOUNT
+          </h1>
+
+          <input
+            type="email"
+            class="p-2 mb-4 border rounded flex items-center gap-5"
+            placeholder="Your Email Address"
+          />
+
+          <input
+            type="password"
+            class="p-2 mb-4 border rounded flex items-center gap-3"
+            placeholder="Password"
+          />
+
+          <span
+            class="px-3 mb-5 flex justify-end items-center gap-3 font-medium cursor-pointer"
+            >Forgot Your Password ?</span
+          >
+
+          <div
+            class="mb-5 border hover:bg-transparent hover:text-blue-500 bg-blue-500 text-white cursor-pointer border-blue-500 text-center rounded flex items-center gap-3"
+          >
+            <input
+              type="submit"
+              class="w-full p-2 uppercase cursor-pointer text-center"
+              value="LOGIN"
+            />
+          </div>
+
+          <div class="flex items-center gap-1.5">
+            <span class="text-gray-500">Don't have an account? </span>
+            <span class="text-blue-500 font-bold cursor-pointer">REGISTER</span>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
